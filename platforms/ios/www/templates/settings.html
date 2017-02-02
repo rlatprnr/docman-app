@@ -1,0 +1,40 @@
+<ion-view class="settings">
+  <ion-content class="has-header" scroll="false">
+
+  	<div class="language">
+  		<label ng-bind="ui.language"></label>
+      <button class="button button-light" ng-class="{'active':lang=='ch'}" ng-click="setLang('ch')">中文</button>
+      <button class="button button-light" ng-class="{'active':lang=='en'}" ng-click="setLang('en')">ENGLISH</button>
+  	</div>
+
+    <div class="select-item">
+      <label ng-bind="ui.age_range"></label>
+      <div class="select">
+        <select>
+          <option>18-24</option>
+          <option selected>25-34</option>
+          <option>35-45</option>
+        </select>
+        <i class="ion-arrow-down-b pull-right"></i>
+      </div>
+    </div>
+
+    <div class="select-item">
+      <label ng-bind="ui.location"></label>
+      <div class="select">
+        <select>
+          <option>Beijing</option>
+          <option selected>Hong Kong</option>
+          <option>Tokyo</option>
+          <option>Osaka</option>
+        </select>
+        <i class="ion-arrow-down-b pull-right"></i>
+      </div>
+    </div>
+
+    <div class="about-btn">
+      <button class="button button-light" ng-bind="ui.about_this_app"></button>
+    </div>
+
+  </ion-content>
+</ion-view>

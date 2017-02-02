@@ -1,0 +1,32 @@
+<ion-view class="login-view">
+
+  <div class="bar bar-header">
+    ssssss
+  </div>
+
+
+  <div class="content has-header">
+
+    <form name="loginForm">
+      <div class="list">
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Email</span>
+          <input type="email" placeholder="Email" ng-model="email" required>
+        </label>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="Password" ng-model="password" required>
+        </label>
+      </div>
+    </form>
+
+    <button class="button button-block button-light" ng-disabled="loginForm.$invalid" ng-bind="ui.login" ng-click="login()"></button>
+
+    <!-- <div class="text-right"><a>sdfdsf</a></div> -->
+
+  </div>
+
+
+  
+
+</ion-view>

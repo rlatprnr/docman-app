@@ -1,0 +1,151 @@
+{
+  "en": {
+    
+    "appname": "APPNAME",
+    "monthly_arrow": "> Monthly",
+    "quarterly_arrow": "Quarterly <",
+
+    "login": "LOGIN",
+
+    "fund_full_name" :"FUND FULL NAME",
+    "manager" :"MANAGER",
+    "advisor" :"ADVISOR",
+    "fund_strategy" :"FUND STRATEGY",
+    "regulatory_registrations" :"REGULATORY REGISTRATIONS",
+    "portpolio_manager" :"PORTPOLIO MANAGER(S)",
+    "coo" :"COO",
+    "inception_date" :"INCEPTION DATE",
+    "aum" :"AUM (us$)",
+    "firm_aum" :"FIRM AUM (US$)",
+    "administrator" :"ADMINISTRATOR",
+    "audior" :"AUDITOR",
+    "prime_broker" :"PRIME BROKER",
+    "onshore_regal_counsel" :"ONSHORE REGAL COUNSEL",
+    "offshore_regal_counsel" :"OFFSHORE REGAL COUNSEL",
+    "subscriptions" :"SUBSCRIPTIONS",
+    "redemption" :"REDEMPTION",
+    "notice_period" :"NOTICE PERIOD",
+    "lock_up" :"LOCK-UP",
+    "penalty_fee" :"PENALTY FEE",
+    "gate_fund_level" :"GATE - FUND LEVEL",
+    "gate_investor_level" :"GATE - INVESTOR LEVEL",
+    "minimum" :"MINIMUM (US$)",
+    "management_fee" :"MANAGEMENT FEE",
+    "performance_fee" :"PERFORMANCE FEE",
+    "hurdle_rate" :"HURDLE RATE",
+    "loss_carry_forward" :"LOSS CARRY FORWARD",
+    "high_water_mark": "HIGH WATER MARK",
+    "bloomberg_ticker": "BLOOMBERG TICKER",
+    "mtd" :"MTD",
+    "ytd" :"YTD",
+    "avg" :"AVG",
+    "strategy": "STRATEGY:",
+  
+    "documents" :"DOCUMENTS",
+    "file_name" :"FILE NAME",
+    "date" :"DATE",
+    "mthly_qtrly" :"MTHLY/QTRLY",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+
+    "filter_publication_date": "FILTER PUBLICATION DATE",
+  
+    "fund_name": "FUND NAME",
+
+    "fund_provider": "FUND PROVIDER",
+    "address": "ADDRESS",
+    "unfollow": "UNFOLLOW",
+    
+    "months": [
+      "JAN", "FEB", "MAR", "APR",
+      "MAY", "JUN", "JUL", "AUG",
+      "SEP", "OCT", "NOV", "DEC"
+    ],
+
+    "language": "LANGUAGE",
+    "age_range": "AGE RANGE",
+    "location": "LOCATION",
+
+    "about_this_app": "ABOUT THIS APP",
+
+    "fund_search": "FUND SEARCH",
+    "publications_search": "PUBLICATIONS SEARCH",
+    "settings": "SETTINGS"
+    
+  },
+
+  "ch": {
+    
+    "appname": "APPNAME",
+    "monthly_arrow": "> Monthly",
+    "quarterly_arrow": "Quarterly <",
+
+    "login": "LOGIN",
+
+    "fund_full_name" :"FUND FULL NAME",
+    "manager" :"MANAGER",
+    "advisor" :"ADVISOR",
+    "fund_strategy" :"FUND STRATEGY",
+    "regulatory_registrations" :"REGULATORY REGISTRATIONS",
+    "portpolio_manager" :"PORTPOLIO MANAGER(S)",
+    "coo" :"COO",
+    "inception_date" :"INCEPTION DATE",
+    "aum" :"AUM (us$)",
+    "firm_aum" :"FIRM AUM (US$)",
+    "administrator" :"ADMINISTRATOR",
+    "audior" :"AUDITOR",
+    "prime_broker" :"PRIME BROKER",
+    "onshore_regal_counsel" :"ONSHORE REGAL COUNSEL",
+    "offshore_regal_counsel" :"OFFSHORE REGAL COUNSEL",
+    "subscriptions" :"SUBSCRIPTIONS",
+    "redemption" :"REDEMPTION",
+    "notice_period" :"NOTICE PERIOD",
+    "lock_up" :"LOCK-UP",
+    "penalty_fee" :"PENALTY FEE",
+    "gate_fund_level" :"GATE - FUND LEVEL",
+    "gate_investor_level" :"GATE - INVESTOR LEVEL",
+    "minimum" :"MINIMUM (US$)",
+    "management_fee" :"MANAGEMENT FEE",
+    "performance_fee" :"PERFORMANCE FEE",
+    "hurdle_rate" :"HURDLE RATE",
+    "loss_carry_forward" :"LOSS CARRY FORWARD",
+    "high_water_mark": "HIGH WATER MARK",
+    "bloomberg_ticker": "BLOOMBERG TICKER",
+    "mtd" :"MTD",
+    "ytd" :"YTD",
+    "avg" :"AVG",
+    "strategy": "STRATEGY:",
+  
+    "documents" :"DOCUMENTS",
+    "file_name" :"FILE NAME",
+    "date" :"DATE",
+    "mthly_qtrly" :"MTHLY/QTRLY",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+
+    "filter_publication_date": "FILTER PUBLICATION DATE",
+  
+    "fund_name": "FUND NAME",
+
+    "fund_provider": "FUND PROVIDER",
+    "address": "ADDRESS",
+    "unfollow": "UNFOLLOW",
+    
+    "months": [
+      "JAN", "FEB", "MAR", "APR",
+      "MAY", "JUN", "JUL", "AUG",
+      "SEP", "OCT", "NOV", "DEC"
+    ],
+
+    "language": "LANGUAGE",
+    "age_range": "AGE RANGE",
+    "location": "LOCATION",
+
+    "about_this_app": "ABOUT THIS APP",
+
+    "fund_search": "FUND SEARCH",
+    "publications_search": "PUBLICATIONS SEARCH",
+    "settings": "SETTINGS"
+
+  }   
+}

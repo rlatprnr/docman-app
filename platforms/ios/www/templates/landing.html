@@ -1,0 +1,25 @@
+<ion-view class="landing-container">
+
+  <ion-content class="has-header">
+
+    <div ng-repeat="fund in funds">
+      <h4 class="fund-strategy" ng-bind="fund.fund_strategy" ui-sref="app.fund-detail({id: fund.id})"></h4>
+      <div class="row item-header">
+        <label class="col col-50"></label>
+        <label class="col col-20" ng-bind="ui.date"></label>
+        <label class="col" ng-bind="ui.mtd"></label>
+        <label class="col" ng-bind="ui.ytd"></label>
+        <label class="col" ng-bind="ui.avg"></label>
+      </div>
+      <div class="row item-body">
+        <div class="col col-50" ng-bind="fund.full_name">Fund</div>
+        <div class="col col-20" ng-bind="fund.date_label"></div>
+        <div class="col" ng-bind="fund.mtd"></div>
+        <div class="col" ng-bind="fund.ytd"></div>
+        <div class="col" ng-bind="fund.avg"></div>
+      </div>
+    </div>
+
+  </ion-content>
+
+</ion-view>

@@ -1,0 +1,50 @@
+<ion-view class="ps-container">
+
+  <div class="search-bar item-input has-header" ng-click="searchBoardOpen = !searchBoardOpen">
+    <label class="item-input-wrapper">
+      <input type="search" placeholder="{{ui.filter_publication_date}}" readonly ng-model="keyLabel">
+    </label>
+    <a class="btn-search">
+      <i ng-class="{'ion-arrow-up-b':!searchBoardOpen, 'ion-arrow-down-b':searchBoardOpen}"></i>
+    </a>
+  </div>
+
+  <div class="search-board close has-header" ng-class="{'close':!searchBoardOpen}">
+    <div>
+      <label>2016</label>
+      <div class="month-btn" ng-repeat="month in ui.months track by $index">
+        <button class="button button-light" ng-class="{'active':key==$index+13}" ng-bind="month" ng-click="selectMonth($index+13)"></button>
+      </div>
+    </div>
+    <div>
+      <label>2015</label>
+      <div class="month-btn" ng-repeat="month in ui.months track by $index">
+        <button class="button button-light" ng-class="{'active':key==$index+1}" ng-bind="month" ng-click="selectMonth($index+1)"></button>
+      </div>
+    </div>
+
+  </div>
+
+  <ion-content class="search-result has-header">
+    <div class="row">
+      <div class="col col-50">
+        <label ng-bind="ui.file_name"></label>  
+      </div>
+      <div class="col col-20">
+        <label ng-bind="ui.date"></label>
+      </div>
+      <div class="col col-25">
+        <label ng-bind="ui.mthly_qtrly"></label>
+      </div>   
+      <a class="col text-center"></a>    
+    </div>
+
+    <div class="row search-item" ng-repeat="doc in docs">
+      <div class="col col-50" ng-bind="doc.filename"></div>
+      <div class="col col-20" ng-bind="doc.date_label">15/4/16</div>
+      <div class="col col-20" ng-bind="doc.mq=='m'?ui.monthly:ui.quarterly"></div>
+      <a class="col text-center"><i class="fa fa-download"></i></a>
+    </div>
+  </ion-content>
+
+</ion-view>

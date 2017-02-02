@@ -1,0 +1,494 @@
+/* Empty. Add your own CSS if you like */
+
+body, input, div {
+  font: 14px SourceSansPro-Light;
+}
+
+.font1-gray {
+  color: #999 !important;
+  font:14px Oranienbaum-Regular !important;
+}
+
+.font1-black {
+  color: #000 !important;
+  font:16px Oranienbaum-Regular !important;
+}
+
+.light {
+  color: #10275b;
+}
+
+ion-view {
+  background: url('../img/background.png');
+  background-size: cover;
+}
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+  border: 0;
+  background-color: white;
+}
+
+/* header */
+
+.bar-header {
+  background-image: none !important;
+  border-bottom: 2px solid #10275b;
+}
+
+.bar-header h1 {
+  /*font-size: 30px;*/
+}
+
+.bar-header .button {
+  color: #272324 !important;
+  font-size: 14px !important;
+}
+
+ion-side-menu .scroll {
+  text-align: center;
+}
+.logo {
+  border-radius: 10px;
+  border: 1px solid #000;
+  display: inline-block;
+  text-align: center;
+  width: 68px;
+  height: 68px;
+  min-width: 68px;
+  min-height: 68px;
+  font: 20px Oranienbaum-Regular;
+  margin: 25px 0 10px 0;
+}
+
+/* footer */
+
+.bar-footer {
+  background-image: none;
+  border-top: 2px solid #10275b;  
+  padding: 0;
+}
+
+.bar-footer .button {
+  border: none !important;
+  border-radius: 0 !important;
+  border-top: 2px solid transparent !important;
+  display: flex;
+  align-items: center;
+}
+
+.bar-footer .button:after {
+  position: initial;
+}
+
+.bar-footer .button.sel {
+  border-top-color: #10275b !important;
+}
+
+.bar-footer .button h5 {
+  color: #10275b;
+  flex: 1;
+}
+
+/* login view */
+
+.login-view .content {
+  margin-top: 25vh;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.login-view .item-input {
+  border-width: 0 0 1px 0;
+}
+
+.login-view button {
+  border: 1px solid #888 !important;
+  border-radius: 10px !important;
+  margin-top: 20px !important;
+}
+
+/* landing */
+
+.landing-container ion-content {
+  /*margin-top: 44px;*/
+  padding: 0 10px;
+}
+
+.landing-container .fund-strategy {
+  border-bottom: 1px solid #000;
+  margin: 10px 10px 0 10px;
+}
+
+.landing-container .item-header .col {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.landing-container .item-header label {
+  color: #999999;  
+  font: 10px Oranienbaum-Regular;
+}
+
+/* provider profile */
+
+.pp-container {
+  /*margin-top: 44px;*/
+}
+
+.provider-info {
+  padding: 15px 15px 0 15px;
+}
+
+.provider-name {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.provider-address {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.provider-info label {
+  color: #999999;  
+  font: 12px Oranienbaum-Regular;
+}
+
+.pp-container .logo {
+  margin: 0;
+}
+
+.pp-container .ion-location {
+  font-size: 35px;
+  margin: 5px 5px;
+}
+
+.pp-container .select-item {
+  display: flex;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+}
+
+.pp-container .select-item select {
+  width: 100%;
+  padding-left: 15px;
+}
+
+.pp-container .ion-arrow-down-b {
+  font-size: 20px;
+  margin: 5px 5px;
+}
+
+.pp-container .fund-info .item-header .col {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.pp-container .fund-info .item-header label {
+  color: #999999;  
+  font: 10px Oranienbaum-Regular;
+}
+
+.pp-container .documents {
+  font: 14px/35px Oranienbaum-Regular;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.pp-container .fund-info,
+.pp-container .docs {
+  padding: 0 10px;
+}
+
+
+.pp-container .scroll {
+  min-height: calc(100vh - 80px);
+}
+.btn-unfollow {
+  border: 1px solid #888 !important;
+  border-radius: 10px !important;
+  position: absolute;
+  bottom: 30px;
+  margin-left: -125px;
+  width: 250px;
+}
+
+
+/* funds-detail */
+
+.fd-container {
+  margin-left: -1px;
+}
+
+.fd-container .row {
+  padding: 0;
+  margin: 0;
+}
+
+.fd-container .col label {
+  display: block;
+  color: #999999;  
+  font: 10px Oranienbaum-Regular;
+}
+
+.fd-container .details .col {
+  border: 1px solid #96a1b7;
+  margin: -1px -1px 0 0;
+  padding: 3px 8px;
+}
+
+.fd-container .details .col:last-child {
+  border-bottom-color: transparent;
+}
+
+.fd-container .details .col input,
+.fd-container .details .col textarea {
+  background-color: #fff;
+  height: auto; 
+  width: 100%;
+  resize: none;
+}
+
+.fd-container .doc-title {
+  border: 1px solid #000;
+  padding: 5px 10px;
+  margin: -1px -1px 0 0;  
+}
+
+.fd-container .doc-title h6 {
+  color: #272324;
+  margin: 5px 0;
+}
+
+.fd-container .doc-list .row {
+  margin: 0 10px;
+  width: auto;
+}
+
+.fd-container .doc-list .doc-item {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.fd-container .doc-list a i {
+  color: #999999;
+}
+
+/* fund search, publications search */
+
+.search-bar {
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+  padding: 0;
+  /*margin-top: 44px;*/
+  z-index: 1;
+}
+
+.search-bar label {
+  background-color: #fff;
+  padding: 0 0 0 12px;
+}
+
+.search-bar label input {
+  background-color: #fff !important;
+  padding: 0;
+}
+
+.search-bar a {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.search-bar a i {
+  color: #10275b;
+  font-size: 20px;  
+}
+
+.search-result {
+  margin-top: 40px;
+}
+
+/* fund search */
+
+.fd-container .scroll-content,
+.settings .scroll-content {
+  /*margin-top: 44px;*/
+}
+
+.fs-container .search-item {
+  margin: 15px 10px;
+}
+
+.fs-container .search-item .row {
+  padding: 0;
+}
+
+.fs-container .search-item .row > div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fs-container .search-item .title {
+  border-bottom: 1px solid #000;
+  font: 16px Oranienbaum-Regular;
+  margin: 0 5px;
+}
+
+.fs-container .search-item .row label {
+  display: block;
+  color: #999999;  
+  font: 10px Oranienbaum-Regular;
+}
+
+
+/* publications search */
+
+.ps-container .search-board {
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  padding: 5px 10px 10px 10px;
+  -webkit-box-shadow: 0px 4px 4px -1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 4px 4px -1px rgba(0,0,0,0.2);
+  box-shadow: 0px 4px 4px -1px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.ps-container .search-board.close {
+  border: none;
+  height: 0;
+  overflow-y: auto;
+  padding: 0;  
+}
+
+.ps-container .search-board > div {
+  display: inline-block;
+}
+
+.ps-container .search-board label {
+  font: 16px Oranienbaum-Regular;
+  padding: 0 10px;
+  display: block;
+  margin-top: 10px;
+}
+
+.ps-container .search-board .month-btn {
+  width: 25%;
+  float: left;
+  padding: 3px;
+}
+
+.ps-container .search-board .button {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #999;
+  font: 13px Oranienbaum-Regular;
+  line-height: 33px;
+  min-height: 33px;
+  width: 100%;
+}
+
+.ps-container .search-board .button.active {
+  border: 1px solid #999;
+  color: #10275b;
+}
+
+.ps-container .search-item .row {
+  padding: 0;
+}
+
+.ps-container .search-result label {
+  display: block;
+  color: #999999;  
+  font: 10px Oranienbaum-Regular;
+}
+
+.ps-container .search-item a i {
+  color: #999999;
+}
+
+
+/* settings */
+
+.settings ion-content {
+  padding: 20px;
+}
+
+.settings label {
+  color: #10275b;
+  font: 14px Oranienbaum-Regular;
+}
+
+.settings .button {
+  font: 14px Oranienbaum-Regular;
+  line-height: 38px;
+  min-height: 38px;
+}
+
+.settings .language {
+  padding: 15px 0;
+}
+
+.settings .language label {
+  display: inline-block;
+  line-height: 40px;
+}
+
+.settings .language .button {
+  border-radius: 8px;
+  border-color: #999999;
+  color: #999999;
+  float: right;
+  width: 90px;
+  margin: 0 3px;  
+}
+
+.settings .language .button.active {
+  border-color: #10275b;
+  color: #10275b;
+}
+
+.settings .select-item label {
+  display: block;
+  border-bottom: 2px solid #10275b;
+  padding: 15px 0 3px 0;
+}
+
+.settings .select-item .select {
+  display: flex;
+  border-bottom: 1px solid #000;
+  padding: 8px 5px 8px 0 !important;
+}
+
+.settings .select-item select {
+  width: 100%;
+}
+
+.settings .about-btn {
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  position: absolute;  
+  text-align: center;
+}
+
+.settings .about-btn .button {
+  border-radius: 10px;
+  border-color: #10275b;
+  color: #10275b;
+  padding: 0 50px;
+}
+
+
+
+
+
+
+

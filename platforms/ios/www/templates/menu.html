@@ -1,0 +1,43 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-clear button-positive" menu-toggle="left" ng-bind="ui.monthly_arrow"></button>
+      </ion-nav-buttons>
+      <ion-nav-buttons side="right">
+        <button class="button button-clear button-positive" menu-toggle="right" ng-bind="ui.quarterly_arrow"></button>
+      </ion-nav-buttons>
+      <ion-nav-title class="font1-black" ng-bind="ui.appname" ui-sref="app.landing">
+      </ion-nav-title>
+    </ion-nav-bar>
+    <ui-view name="menuContent"></ui-view>  
+    <ion-footer-bar>
+      <div class="button-bar">
+        <a class="button button-clear" ui-sref-active="sel" ui-sref="app.fund-search"><h5>FUND<br>SEARCH</h5></a>
+        <a class="button button-clear" ui-sref-active="sel" ui-sref="app.publications-search"><h5>PUBLICATIONS<br>SEARCH</h5></a>
+        <a class="button button-clear" ui-sref-active="sel" ui-sref="app.settings"><h5>SETTINGS</h5></a>
+      </div>
+    </ion-footer-bar>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" width="{{sidewidth}}">    
+    <ion-content>
+      <div ng-repeat="doc in monthDocs">
+        <img class="logo" border="0" ng-src="{{doc.logo}}">
+        <div ng-bind="doc.date_label"></div>
+      </div>
+    </ion-content>
+  </ion-side-menu>
+
+  <ion-side-menu side="right" width="{{sidewidth}}">
+    <ion-content>
+      <div ng-repeat="doc in quearterDocs">
+        <img class="logo" border="0" ng-src="{{doc.logo}}">
+        <div ng-bind="doc.date_label"></div>
+      </div>
+    </ion-content>
+  </ion-side-menu>
+
+</ion-side-menus>

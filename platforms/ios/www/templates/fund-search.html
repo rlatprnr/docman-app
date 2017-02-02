@@ -1,0 +1,31 @@
+<ion-view class="fs-container">
+
+  <div class="search-bar item-input has-header">
+    <label class="item-input-wrapper">
+      <input type="search" placeholder="{{ui.fund_search}}..." ng-model="search_key">
+    </label>
+    <a ng-click="search()"><i class="ion-ios-search"></i></a>
+  </div>
+
+  <ion-content class="search-result has-header">
+    <div class="search-item" ng-repeat="fund in funds">
+      <div class="title" ng-bind="fund.full_name" ui-sref="app.fund-detail({id: fund.id})"></div>
+      <div class="row">
+        <label class="col col-50" ng-bind="ui.fund_name"></label>
+        <label class="col col-20" ng-bind="ui.date"></label>
+        <label class="col" ng-bind="ui.mtd"></label>
+        <label class="col" ng-bind="ui.ytd"></label>
+        <label class="col" ng-bind="ui.avg"></label>
+      </div>
+
+      <div class="row" ui-sref="app.fund-detail({id:fund.id})">
+        <div class="col col-50" ng-bind="fund.full_name"></div>
+        <div class="col col-20" ng-bind="fund.inception_date"></div>
+        <div class="col" ng-bind="fund.management_pee">1.2%</div>
+        <div class="col" ng-bind="fund.performance_fee">7%</div>
+        <div class="col" ng-bind="fund.hurdle_rate">8%</div>
+      </div>
+    </div>
+  </ion-content>
+
+</ion-view>

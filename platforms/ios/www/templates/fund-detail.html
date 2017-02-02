@@ -1,0 +1,241 @@
+<ion-view class="fd-container">
+  <ion-content class="has-header">
+  	<form name="fundForm" novalidate>
+  	  <div class="details">
+  	  
+        <div class="row">
+          <div class="col">
+    	      <label ng-bind="ui.fund_full_name"></label>
+    	      <input type="text" name="" ng-model="form.full_name" readonly>
+          </div>
+  	    </div>
+
+  	    <div class="row" ui-sref="app.provider-profile({id: form.uid})">
+          <div class="col">
+    	      <label ng-bind="ui.manager"></label>
+    	      <input type="text" name="" ng-model="form.manager" readonly>
+          </div>
+  	    </div>
+
+  	    <div class="row">
+          <div class="col">
+    	      <label ng-bind="ui.advisor"></label>
+    	      <input type="text" name="" ng-model="form.advisor" readonly>
+          </div>
+  	    </div>
+
+  	    <div class="row">
+          <div class="col">
+    	      <label ng-bind="ui.fund_strategy"></label>
+    	      <input type="text" name="" ng-model="form.fund_strategy" readonly>
+          </div>
+  	    </div>
+
+  	    <div class="row">
+          <div class="col">
+    	      <label ng-bind="ui.regulatory_registrations"></label>
+    	      <input type="text" name="" ng-model="form.regulatory_registrations" readonly>
+          </div>
+        </div>
+
+  	    <div class="row">
+          <div class="col">
+    	      <label ng-bind="ui.portpolio_manager"></label>
+    	      <input type="text" name="" ng-model="form.portpolio_manager" readonly>
+          </div>
+  	    </div>
+
+  	    <div class="row">
+          <div class="col">
+    	      <label ng-bind="ui.coo"></label>
+    	      <input type="text" name="" ng-model="form.coo" readonly>
+          </div>
+  	    </div>
+
+  	    <div class="row">
+  	      <div class="col">
+  	        <label ng-bind="ui.inception_date"></label>
+  	        <input type="text" name="" ng-model="form.inception_date" readonly>
+  	      </div>
+  	      <div class="col">
+  	        <label ng-bind="ui.aum"></label>
+  	        <input type="text" name="" ng-model="form.aum" readonly>
+  	      </div>
+  	      <div class="col">
+  	        <label ng-bind="ui.firm_aum"></label>
+  	        <input type="text" name="" ng-model="form.firm_aum" readonly>
+  	      </div>
+  	    </div>
+
+  	    <div class="row">
+  	      <div class="col">
+  	        <label ng-bind="ui.administrator"></label>
+  	        <input type="text" name="" ng-model="form.administrator" readonly>
+  	      </div>
+
+  	      <div class="col">
+  	        <label ng-bind="ui.audior"></label>
+  	        <input type="text" name="" ng-model="form.auditor" readonly>
+  	      </div>
+  	    </div>
+
+  	    <div class="row">
+          <div class="col">
+    	      <label ng-bind="ui.prime_broker"></label>
+    	      <input type="text" name="" ng-model="form.prime_broker" readonly>
+          </div>
+  	    </div>
+
+  	    <div class="row">
+  	      <div class="col">
+  	        <label ng-bind="ui.onshore_regal_counsel"></label>
+  	        <input type="text" name="" ng-model="form.onshore_legal_counsel" readonly>
+  	      </div>
+
+  	      <div class="col">
+  	        <label ng-bind="ui.offshore_regal_counsel"></label>
+  	        <input type="text" name="" ng-model="form.offshore_legal_counsel" readonly>
+  	      </div>
+  	    </div>
+
+  	    <div class="row">
+  	      <div class="col">
+  	        <label ng-bind="ui.subscriptions"></label>
+  	        <input type="text" name="" ng-model="form.subscriptions" readonly>
+  	      </div>
+  	      <div class="col">
+  	        <label ng-bind="ui.redemption"></label>
+  	        <input type="text" name="" ng-model="form.redemption" readonly>
+  	      </div>
+
+  	      <div class="col">
+  	        <label ng-bind="ui.notice_period"></label>
+  	        <input type="text" name="" ng-model="form.notice_period" readonly>
+  	      </div>
+  	    </div>
+
+  	    <div class="row">
+  	      <div class="col">
+  	        <label ng-bind="ui.lock_up"></label>
+  	        <input type="text" name="" ng-model="form.lock_up" readonly>
+  	      </div>
+
+  	      <div class="col">
+  	        <label ng-bind="ui.penalty_fee"></label>
+  	        <input type="text" name="" ng-model="form.penalty_fee" readonly>
+  	      </div>
+  	    </div>
+
+  	    <div class="row">
+  	      <div class="col">
+  	        <label ng-bind="ui.gate_fund_level"></label>
+  	        <input type="text" name="" ng-model="form.fund_level" readonly>
+  	      </div>
+
+  	      <div class="col">
+  	        <label ng-bind="ui.gate_investor_level"></label>
+  	        <input type="text" name="" ng-model="form.investor_level" readonly>
+  	      </div>
+  	    </div>
+
+  	    <div class="row">
+  	      <div class="col">
+  	        <label ng-bind="ui.minimum"></label>
+  	        <input type="text" name="" ng-model="form.minimum" readonly>
+  	      </div>
+
+  	      <div class="col">
+  	        <label ng-bind="ui.management_fee"></label>
+  	        <input type="text" name="" ng-model="form.management_pee" readonly>
+  	      </div>
+  	    </div>
+
+  	    <div class="row">
+  	      <div class="col">
+  	        <label ng-bind="ui.performance_fee"></label>
+  	        <input type="text" name="" ng-model="form.performance_fee" readonly>
+  	      </div>
+
+  	      <div class="col">
+  	        <label ng-bind="ui.hurdle_rate"></label>
+  	        <input type="text" name="" ng-model="form.hurdle_rate" readonly>
+  	      </div>
+  	    </div>
+
+  	    <div class="row">
+  	      <div class="col">
+  	        <label ng-bind="ui.loss_carry_forward"></label>
+  	        <input type="text" name="" ng-model="form.loss_carry_forward" readonly>
+  	      </div>
+
+  	      <div class="col">
+  	        <label ng-bind="ui.high_water_mark"></label>
+  	        <input type="text" name="" ng-model="form.high_water_mark" readonly>
+  	      </div>
+  	    </div>
+
+  	    <div class="row">
+          <div class="col">
+    	      <label ng-bind="ui.bloomberg_ticker"></label>
+    	      <input type="text" name="" ng-model="form.bloomberg_ticker" readonly>
+          </div>
+  	    </div>
+
+        <div class="row">
+          <div class="col">
+            <label ng-bind="ui.mtd"></label>
+            <input type="text" name="" ng-model="form.mtd" readonly>
+          </div>
+
+          <div class="col">
+            <label ng-bind="ui.ytd"></label>
+            <input type="text" name="" ng-model="form.ytd" readonly>
+          </div>
+
+          <div class="col">
+            <label ng-bind="ui.avg"></label>
+            <input type="text" name="" ng-model="form.avg" readonly>
+          </div>
+        </div>
+
+  	    <div class="row">
+          <div class="col">
+    	      <label ng-bind="ui.strategy"></label>
+    	      <textarea rows="4" ng-model="form.strategy" readonly></textarea>
+          </div>
+  	    </div>
+  	  </div>
+
+      <div class="row">
+        <div class="col doc-title">
+          <h6 ng-bind="ui.documents"></h6>
+        </div>
+      </div> 
+
+  	  <div class="doc-list">
+        
+        <div class="row">
+          <div class="col col-50">
+            <label ng-bind="ui.file_name"></label>  
+          </div>
+          <div class="col col-20">
+            <label ng-bind="ui.date"></label>
+          </div>
+          <div class="col col-25">
+            <label ng-bind="ui.mthly_qtrly"></label>
+          </div>   
+          <a class="col text-center"></a>    
+        </div>
+
+        <div class="row doc-item" ng-repeat="doc in docs">
+          <div class="col col-50" ng-bind="doc.filename"></div>
+          <div class="col col-20" ng-bind="doc.date_label"></div>   
+          <div class="col col-25" ng-bind="doc.mq=='m'?ui.monthly:ui.quarterly"></div>       
+          <a class="col text-center" ng-click="downloadDoc(doc)">
+            <i class="fa fa-download"></i>
+          </a>           
+        </div>
+  	  </div>
+    </form>
+  </ion-content>
+</ion-view>

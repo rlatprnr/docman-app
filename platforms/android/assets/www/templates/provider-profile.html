@@ -1,0 +1,64 @@
+<ion-view class="pp-container">
+  <ion-content class="has-header">
+    <div class="provider-info">
+    	<div class="row">
+        <div class="provider-name">
+          <label ng-bind="ui.fund_provider"></label>
+          <div ng-bind="user.username"></div>
+        </div>
+        <img class="logo" border="0" ng-src="{{user.logo}}">
+      </div>
+      <div class="row">
+        <div class="provider-address">
+          <label ng-bind="ui.address"></label>
+          <div ng-bind="user.address1"></div>
+        </div>
+        <i class="ion-location"></i>
+      </div>
+    </div>
+
+    <div class="select-item">
+      <select ng-model="selectedfundid" ng-change="changeFund(selectedfundid)">
+        <option ng-repeat="fund in user.funds" value={{fund.id}} ng-bind="fund.full_name"></option>
+      </select>
+      <i class="ion-arrow-down-b"></i>
+    </div>
+
+    <div class="fund-info">
+      <div class="row item-header">
+        <label class="col col-50"></label>
+        <label class="col col-20" ng-bind="ui.date"></label>
+        <label class="col" ng-bind="ui.mtd"></label>
+        <label class="col" ng-bind="ui.ytd"></label>
+        <label class="col" ng-bind="ui.avg"></label>
+      </div>
+      <div class="row item-body">
+        <div class="col col-50" ng-bind="selectFund.full_name">Fund</div>
+        <div class="col col-20" ng-bind="selectFund.date_label"></div>
+        <div class="col" ng-bind="selectFund.mtd"></div>
+        <div class="col" ng-bind="selectFund.ytd"></div>
+        <div class="col" ng-bind="selectFund.avg"></div>
+      </div>
+    </div>
+
+    <div class="documents" ng-bind="ui.documents"></div>
+
+    <div class="docs">
+      <div class="row doc-item" ng-repeat="doc in selectFund.docs">
+        <div class="col col-50" ng-bind="doc.filename"></div>
+        <div class="col col-20" ng-bind="doc.date_label"></div>   
+        <div class="col col-25" ng-bind="doc.mq=='m'?ui.monthly:ui.quarterly"></div>       
+        <a class="col text-center" ng-click="downloadDoc(doc)">
+          <i class="fa fa-download"></i>
+        </a>           
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button class="button button-light btn-unfollow" ng-disabled="isUnfollow" ng-bind="ui.unfollow" ng-click="unfollow()"></button>
+    </div>
+
+    
+
+  </ion-content>
+</ion-view>
